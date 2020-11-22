@@ -1,0 +1,19 @@
+{
+	"name": "ts-tutorial-app2",
+	"version": "1.0.0",
+	"description": "App from Stephen Grider's Udemy Typescript course,specifically section 10. Implements a sorting funtion that works with array of numbers, strings and linked lists.",
+	"main": "index.js",
+	"scripts": {
+		"start:build": "tsc -w",
+		"start:run": "nodemon dist/index.js",
+		"start": "concurrently npm:start:*"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.6"
+	}
+}
